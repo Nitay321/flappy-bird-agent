@@ -210,7 +210,7 @@ class Main:
             elif the_chosen_category == 3:
                 self.credits_menu.draw()
             elif the_chosen_category == 4:
-                self.controls_menu.draw_from_menu.draw()
+                self.controls_menu.draw()
             else:
                 self.main_menu.draw()
 
