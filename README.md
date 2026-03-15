@@ -27,7 +27,7 @@ To make a decision, the agent tracks:
 ### The Reward System
 * **+1 (Survival):** Awarded for every frame the bird stays alive.
 * **-1000 (Penalty):** A heavy penalty for hitting a pipe or the ground.
-* **Optimization:** For stable results, the survival reward can be set to **0**, forcing the agent to focus only on avoiding death.
+* **Optimization:** During advanced training, the survival reward can be set to **0**, forcing the agent to focus only on avoiding death.
 
 ## 📈 Training Insights
 * **Speed Mastery:** Disabling visual rendering allows the agent to simulate games much faster than real-time.
@@ -36,29 +36,40 @@ To make a decision, the agent tracks:
 
 ## 🚀 How to Run & Use
 
-1. **Install Requirements:**
+1. **Clone the Repository:**
    ```bash
-   pip install pygame
+   git clone [https://github.com/Nitay321/flappy-bird-agent.git](https://github.com/Nitay321/flappy-bird-agent.git)
+   cd flappy-bird-agent
 
 ```
 
-2. **Run the Game:**
+2. **Install Requirements:**
+```bash
+pip install pygame
+
+```
+
+
+3. **Run the Game:**
 ```bash
 python main.py
 
 ```
 
 
-3. **Menu Navigation:**
+
+## 🎮 Interface & Training
+
+### Menu Navigation
+
 * Use **Arrow Keys** to move and **Enter** to select.
 * Press **Esc** to go back.
 
+### Training Your Own Agent
 
-4. **Training Your Own Agent:**
-* In **Options**, set a name for your agent (e.g., `dreambig`).
-* In the **Agent** screen:
+* In **Options -> Name**, you can enter a new name or choose an existing one from the `/brain` folder (e.g., `dreambig`, `fb1`, etc.) to load its current progress.
+* In the **Agent** training screen:
 * Press **`S`** to toggle visual rendering (Fast-Forward).
 * Press **`R`** to switch training methods (Random vs. Checkpoint).
 * Press **`Enter`** to save the progress.
-
 
