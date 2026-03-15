@@ -87,8 +87,4 @@ While the Agent is the star of the show, there is much more to explore:
 
 ## 🌌 The Final Frontier
 
-They say that after reaching 10,000,000 points, the bird no longer sees pipes—it only sees the code.
-
-Can a simple Q-Table develop its own intuition? Is there a limit to what an agent can achieve, or is this just the beginning of something much larger?
-
 **Load a brain, press start, and witness the evolution.**
