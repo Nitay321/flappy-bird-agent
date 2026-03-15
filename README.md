@@ -73,3 +73,22 @@ python main.py
 * Press **`R`** to switch training methods (Random vs. Checkpoint).
 * Press **`Enter`** to save the progress.
 
+
+
+## 🕹️ More Than Just AI
+
+While the Agent is the star of the show, there is much more to explore:
+
+* **Manual Mode:** Think you're better than the AI? Try playing manually and see if you can earn the **Platinum Medal**.
+* **Medal System:** Unlock Bronze, Silver, Gold, and Platinum medals based on your (or the Agent's) high scores.
+* **Customization:** Dive into the **Options** menu to customize the bird, the environment, and the game sounds.
+
+---
+
+## 🌌 The Final Frontier
+
+They say that after reaching 10,000,000 points, the bird no longer sees pipes—it only sees the code.
+
+Can a simple Q-Table develop its own intuition? Is there a limit to what an agent can achieve, or is this just the beginning of something much larger?
+
+**Load a brain, press start, and witness the evolution.**
